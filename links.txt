@@ -2,4 +2,5 @@ Links for reading reference:
 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4069257
 
 Books:
-perceptual digital imaging methods and applications (especially) chapter 4 
+perceptual digital imaging methods and applications (especially) chapter 4 :
+  https://books.google.co.in/books?id=olHNBQAAQBAJ&dq=perceptual+digital+imaging+google+book+pdf&source=gbs_navlinks_s
