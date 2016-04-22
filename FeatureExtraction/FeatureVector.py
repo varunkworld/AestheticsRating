@@ -4,6 +4,7 @@ import numpy as np
 from numpy import * 
 import sys
 from scipy import misc
+import pywt
 
 #filename = sys.argv[1]
 #filename='abc.jpg'
