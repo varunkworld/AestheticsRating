@@ -1,6 +1,7 @@
 import os, glob
 import urllib
 import json
+from operator import itemgetter
 path = 'K:\Old\E_DRIVE\ACADEMICS IV\BTP\April\FE\dp'
 from interactivegetFeatures import getFeatureVector
 
@@ -65,10 +66,12 @@ try:
         ans.append(s)
         i = j-4
     i = len(ans)-1
+    pairs = []
     for n in names :
         print (str(n)+" -> "+str(ans[i]))
+        pairs.append((str(n),float(ans[i])))
         i = i -1
-    
+    pairs = sorted(pairs, key=itemgetter(1))
 except urllib.request.HTTPError as error:
     print("The request failed with status code: " + str(error.code))
 
