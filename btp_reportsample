@@ -1,0 +1,46 @@
+some features cannot distuigush images
+for our model boosted decision tree is best among all the models
+increasing training datasets increases the accuracy of the prediction
+
+
+
+Feature Extraction
+
+1. RGB composition -
+	. Average Red Pixels : This is calculated by  
+	. Average Green Pixels : This is calculated by
+	. Average Blue Pixels : This is calculated by
+2. Brightness
+3. Luminance -
+	. Ist : (0.2126*R + 0.7152*G + 0.0722*B)
+	. IInd : (0.299*R + 0.587*G + 0.114*B)
+	. IIIrd : sqrt( 0.299*R^2 + 0.587*G^2 + 0.114*B^2 )
+4. Anti Blur : 
+5. Exposure and Colourfulness : sum(Iv(x,y))*/(X*Y)
+6. Saturation : sum(Is(x,y))*/(X*Y)
+7. Hue : sum(Ih(x,y))*/(X*Y)
+8. Rule of Thirds -
+	. On Hue : (9/(X*Y))*
+	. On Saturation :
+	. On Value :
+9. Size and Aspect Ratio -
+	. Size : X+Y
+	. Aspect Ratio : X/Y
+10. Wavelet Based Transform -
+	. On Hue -
+		. Level 1
+		. Level 2
+		. Level 3
+	. On Saturation -
+		. Level 1
+		. Level 2
+		. Level 3
+	. On Value -
+		. Level 1
+		. Level 2
+		. Level 3
+11. Low Depth Field of Indicator -
+	. On Hue
+	. On Saturation
+	. On Value
+12. Simplicity -
