@@ -57,7 +57,7 @@ try:
     # response = urllib.request.urlopen(req)
 
     result = response.read()
-    i = len(result)-7
+    i = len(result)-24
     ans = []
     while (result[i+1]!=':') :
         j = i-1

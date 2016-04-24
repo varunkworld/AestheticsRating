@@ -5,7 +5,7 @@ from scipy import misc
 import pywt
 import numbers
 import math
-import cv2
+import opencv2 as cv2
 
 #filename = sys.argv[1]
 #filename='abc.jpg'
